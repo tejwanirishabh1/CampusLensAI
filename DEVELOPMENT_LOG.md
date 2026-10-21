@@ -14,7 +14,7 @@ Tracking development progress, time invested, and lessons learned.
 
 | Date | Work Completed | Time Spent |
 |---|---|---|
-| 2026-10-21 | Set up Python environment and dependencies; implemented PDF text extraction, text chunking, TF-IDF retrieval, initial answer generation, FastAPI health endpoint, and initial Streamlit interface. | To be recorded |
+| 2026-10-21 | Set up Python environment and dependencies; implemented PDF text extraction, text chunking, TF-IDF retrieval, initial answer generation, FastAPI health endpoint, and initial Streamlit interface. | 2 hours 30 minutes |
 
 ## Upcoming Milestones
 

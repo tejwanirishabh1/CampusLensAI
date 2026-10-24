@@ -15,7 +15,22 @@ st.write(
     "with source references."
 )
 
-st.info(
-    "The interface is under development. "
-    "PDF processing and question answering will be connected next."
+st.divider()
+
+st.header("📄 Upload Your Academic Document")
+
+uploaded_file = st.file_uploader(
+    "Choose a PDF file",
+    type=["pdf"],
+    help="Upload a PDF document to begin."
 )
+
+if uploaded_file is not None:
+    st.success("PDF uploaded successfully!")
+    st.write("**Filename:**", uploaded_file.name)
+    st.write(
+        "**File size:**",
+        f"{uploaded_file.size / 1024:.2f} KB"
+    )
+else:
+    st.info("Please upload a PDF document to get started.")
